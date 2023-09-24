@@ -1,4 +1,5 @@
 class Register:
 
-    def __init__(self, value = "00000000") -> None:
+    """Values presented as hexabites"""
+    def __init__(self, value = "00") -> None:
         self.value = value

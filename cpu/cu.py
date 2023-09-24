@@ -8,6 +8,7 @@ class CU:
         self.ir = Register()
         self.sr = Register()
         self.tr = Register()
+        self.pc = Register()
         self.r1 = Register()
         self.r2 = Register()
         self.r3 = Register()
@@ -16,3 +17,8 @@ class CU:
         self.r6 = Register()
         self.r7 = Register()
 
+    def decode(self):
+        pass
+
+    def clock(self):
+        pass
